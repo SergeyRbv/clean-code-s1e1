@@ -125,7 +125,7 @@ label[for='new-task'] {
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.btn-delete:hover {
     transform: rotateZ(0);
 }
 
