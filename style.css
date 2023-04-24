@@ -69,7 +69,9 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-#add__input {
+#add__input,
+.todo__input,
+.item-complited__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -107,7 +109,8 @@ label[for='new-task'] {
     vertical-align: middle;
 }
 
-.todo__input-checkbox {
+.todo__input-checkbox,
+.list__label {
     margin: 0 10px;
 }
 .todo__label,
@@ -140,11 +143,14 @@ label[for='new-task'] {
     display:none
 }
 
-.todo__input {
+.todo__input,
+.edit {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+.edit,
+.todo__label,
+.item-complited__label {
     display:none;
 }

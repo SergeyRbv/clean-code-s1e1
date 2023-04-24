@@ -34,7 +34,7 @@ var createNewTaskElement=function(taskString){
 
     label.innerText=taskString;
     label.classList.add("task");
-    label.classList.add("");
+    label.classList.add("list-label");
 
     //Each elements, needs appending
     checkBox.type="checkbox";
