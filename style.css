@@ -94,7 +94,7 @@ label[for='new-task'] {
 }
 
 /* Task list */
-.list-item {
+.todo__list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -102,7 +102,7 @@ label[for='new-task'] {
     justify-content: space-between;
     align-items: center;
 }
-.list-item > * {
+.todo__list-item > * {
     vertical-align: middle;
 }
 
