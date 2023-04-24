@@ -117,8 +117,7 @@ label[for='new-task'] {
 .item-checkbox {
     margin: 0 10px;
 }
-.todo__label,
-.item-complited__label {
+.list-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -154,7 +153,6 @@ label[for='new-task'] {
 }
 
 .edit,
-.todo__label,
-.item-complited__label {
+.list-label {
     display:none;
 }
