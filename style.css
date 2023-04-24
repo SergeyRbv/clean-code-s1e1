@@ -109,8 +109,7 @@ label[for='new-task'] {
     vertical-align: middle;
 }
 
-.todo__input-checkbox,
-.list__label {
+.item-checkbox {
     margin: 0 10px;
 }
 .todo__label,
