@@ -102,7 +102,7 @@ label[for='new-task'] {
     justify-content: space-between;
     align-items: center;
 }
-.todo__input > * {
+.list-item > * {
     vertical-align: middle;
 }
 
