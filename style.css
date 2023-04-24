@@ -69,7 +69,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-.main__input {
+#add__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,16 +81,16 @@ label[for='new-task'] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-.main__input:focus {
+#add__input:focus {
     color: #333;
 }
 
 /* New Task */
-label[for='new-task'] {
+/* label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
-}
-.main__input {
+} */
+#add__input {
     width: 318px;
 }
 
@@ -120,7 +120,7 @@ label[for='new-task'] {
 .todo__input {
     width: 226px
 }
-button.delete img {
+.btn-delete {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
