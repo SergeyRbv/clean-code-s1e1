@@ -109,7 +109,7 @@ label[for='new-task'] {
 .todo__input-checkbox {
     margin: 0 10px;
 }
-li > label {
+.todo__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
