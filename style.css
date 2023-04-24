@@ -106,7 +106,7 @@ li > * {
     vertical-align: middle;
 }
 
-.todo {
+.todo__input-checkbox {
     margin: 0 10px;
 }
 li > label {
