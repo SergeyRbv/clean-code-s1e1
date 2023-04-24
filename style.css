@@ -115,7 +115,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.todo__input {
     width: 226px
 }
 button.delete img {
@@ -134,11 +134,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.todo__input {
     display:none
 }
 
-ul li.editMode input[type=text] {
+.todo__input {
     display:inline-block;
     width:224px
 }
