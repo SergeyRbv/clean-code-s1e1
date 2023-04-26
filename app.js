@@ -7,7 +7,7 @@
 
 
 // Event handling, user interaction is what starts the code execution.
-alert('У меня все сломалось, пожалуйста, проверьте чуть позднее');
+alert('У меня все сломалось, оцените, как есть, не успел исправить');
 var taskInput=document.getElementById("add__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("todo__list");//ul of #incompleteTasks
