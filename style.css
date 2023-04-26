@@ -137,16 +137,14 @@ h3{
 
 /* Edit Task */
 .todo__input {
-    display:none;
+    display: none;
 }
-
-.todo__input .edit {
+.edit .todo__input {
     display:inline-block;
     width:224px;
 }
 
-.edit,
-.list-label {
+.edit .list-label {
     display:none;
 }
 @media (max-width:768px) {
