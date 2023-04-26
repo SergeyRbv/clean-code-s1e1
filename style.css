@@ -69,8 +69,7 @@ h3{
     text-transform: uppercase;
 }
 #add__input,
-.todo__input,
-.item-complited__input {
+.todo__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
